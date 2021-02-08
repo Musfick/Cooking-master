@@ -4,3 +4,8 @@
 #upper{
     background-color: rgb(148, 49, 62);
 }
+.details{
+    padding: 150px;
+    margin-left: 300px;
+    background-color: yellow;
+}
