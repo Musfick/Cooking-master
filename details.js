@@ -14,4 +14,4 @@ fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${myParam}`)
     <ul><li>${meal.strIngredient3}</li></ul>
     <ul><li>${meal.strIngredient4}</li></ul>
     <ul><li>${meal.strIngredient6}</li></ul>
-    <ul><li>${meal.strIngredient5}</li></ul></div></div>`;
+    <ul><li>${meal.strIngredient5}</li></ul></div></div>`;})
