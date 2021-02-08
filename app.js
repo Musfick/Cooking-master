@@ -5,12 +5,12 @@ searchBtn.addEventListener('click', () => {
   fetch(`https://www.themealdb.com/api/json/v1/1/search.php?f=${inputFood}`)
     .then((response) => response.json())
     .then((data) => {
-      var element = document.getElementById('alert');
+      const element = document.getElementById('alert');
       element.classList.add('d-none');
-      var wrapper = document.getElementById('wrapper');
-      var content = '';
+      const wrapper = document.getElementById('wrapper');
+      let content = '';
       wrapper.innerHTML = content;
-      var response = data.meals;
+      const response = data.meals;
 
       if (response != null) {
         for (let i in response) {
